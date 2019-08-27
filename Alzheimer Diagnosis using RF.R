@@ -61,3 +61,7 @@ ggplot(ad_data) +
   theme_minimal()
 
 
+#DATA PREP
+#Absence of NA Values and Good Data Structure (Esp. Factors) nullify this step.
+
+

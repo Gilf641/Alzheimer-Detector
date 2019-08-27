@@ -24,6 +24,7 @@ ad_data <- na.omit(ad_data)
 chart.Correlation(select(ad_data, Age, EDUC, SES, MMSE, CDR, eTIV, nWBV, ASF ), histogram = T, main = 'Correlation using PerformanceAnalytics')
 
 
+#\\\\\\\\----------DATA VISUALIZATION-------------
 
 ggplot(ad_data) +
   aes(x = CDR, y = Age, fill = Group) +
@@ -34,7 +35,6 @@ str(ad_data)
 summary(ad_data)
 
 
-#\\\\\\\\----------DATA VISUALIZATION-------------
 
 #CDR vs SES
 ggplot(ad_data) +

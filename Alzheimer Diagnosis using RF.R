@@ -16,3 +16,10 @@ ad_data <- read.csv('')
 head(ad_data)
 str(ad_data)
 summary(ad_data)
+
+
+describe(ad_data)
+ad_data <- na.omit(ad_data)
+
+chart.Correlation(select(ad_data, Age, EDUC, SES, MMSE, CDR, eTIV, nWBV, ASF ), histogram = T, main = 'Correlation using PerformanceAnalytics')
+

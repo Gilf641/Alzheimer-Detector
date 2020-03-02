@@ -209,8 +209,7 @@ dotplot(results)
 #from the results the max acc can be achieved if the no of trees = 1000 i.e 76.7%
 
 #AUC calculation
-
-set.seed(719)
+set.seed(720)
 #RandomForest Model
 rf.roc <- roc(train$CDR,rf500$votes[,2])
 plot(rf.roc)

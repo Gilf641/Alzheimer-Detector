@@ -1,5 +1,4 @@
 # Load all the libraries
-# import pytesseract
 import os
 import cv2
 import time

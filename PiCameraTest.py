@@ -3,6 +3,7 @@ import os
 import cv2
 import time
 import pickle
+import sqlite3
 import argparse
 import datetime
 import numpy as np
@@ -62,14 +63,9 @@ def compliment():
 
 notify = None
 
-import sqlite3
+# Connect to database
 connectObject = sqlite3.connect('EmployeeCpy1.db')
 crsr = connectObject.cursor()
-
-
-
-
-
 
 # Set time limit for message box
 timeDuration = 3000

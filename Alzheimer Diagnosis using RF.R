@@ -1,6 +1,4 @@
-
 #load all the required libraries
-
 library(Hmisc)
 library(ggplot2)
 library(dplyr)
@@ -12,7 +10,7 @@ library(rpart.plot)
 library(caret)
 library(pROC)
 
-ad_data <- read.csv('')
+ad_data <- read.csv('dataset.csv')
 head(ad_data)
 str(ad_data)
 summary(ad_data)
@@ -214,6 +212,6 @@ set.seed(720)
 rf.roc <- roc(train$CDR,rf500$votes[,2])
 plot(rf.roc)
 rf_auc <- auc(rf.roc)
-print(paste0("AUC for RandomForest Model = ", round(rf_auc, 3)))
+print(paste0("AUC for this RandomForest Model = ", round(rf_auc, 3)))
 
 

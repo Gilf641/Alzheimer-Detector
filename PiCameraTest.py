@@ -39,12 +39,6 @@ all_face_encodings = np.array(list(all_encodings.values()))
 print(known_face_names)
 
 
-
-#'{} minutes, {} hours'.format(minutes, hours)
-# greeting = None
-
-
-# main_ dict holding up the detected face names with values as check in time
 main_ = {}
 
 currentTime = datetime.datetime.now()

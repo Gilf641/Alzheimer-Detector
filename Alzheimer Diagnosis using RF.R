@@ -124,6 +124,7 @@ str(train)
 
 
 # RANDOM FOREST ERROR RATE
+
 plot(rf1, main = "Model Error by Number of Trees")
 legend(x = "right", 
        legend = colnames(rf1$err.rate),

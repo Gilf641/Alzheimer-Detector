@@ -94,7 +94,7 @@ plotcp(tree)
 #DECISION TREE TEST MODEL
 #testing model
 pred1 <- predict(tree, newdata = test, type = 'class')
-pred1
+
 
 confusionMatrix(pred1, test$CDR)
 

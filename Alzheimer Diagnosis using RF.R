@@ -158,6 +158,7 @@ importance(rf500)
 
 #TUNING OF RANDOM FOREST
 #Let's create a baseline for comparison by using the recommend defaults for each parameter and mtry=floor(sqrt(ncol(x))) or mtry=7 and ntree=500.
+
 # Create model with default paramters
 control <- trainControl(method="repeatedcv", number=10, repeats=3)
 seed <- 7

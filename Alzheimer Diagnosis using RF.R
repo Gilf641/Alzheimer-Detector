@@ -171,13 +171,11 @@ print(rf101)
 #ACCURACY IS 75%
 #MTRY = 4
 
-
 colnames(ad_data)
 
 #without CDR and all ID's
 df2 <- ad_data[!names(ad_data) %in% c("CDR",'Subject.ID','MRI.ID')]
 str(df2)
-
 
 df3 <- ad_data[,12]
 df3

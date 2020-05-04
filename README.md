@@ -1,4 +1,6 @@
 **INTRODUCTION**
+
+
 Alzheimer's Disease also called as Senile Dementia is a progressive disease that destroys memory and other important mental functions. It causes brain cells to degenerate and die. 
 There'll be continuous decline in thinking, behavioral and social skills that disrupts a person's ability to function independently.The early signs of the disease may be forgetting recent events or conversations. As the disease progresses, a person with Alzheimer's disease will develop severe memory impairment and lose the ability to carry out everyday tasks.
 
